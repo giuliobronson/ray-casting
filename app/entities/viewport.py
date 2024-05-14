@@ -3,7 +3,7 @@ import cv2
 
 class Viewport:
 
-    def __init__(self, focal_distance=1, shape=(300, 400), viewport_height=2.0):
+    def __init__(self, focal_distance=1, shape=(500, 500), viewport_height=2.0):
         self.focal_distance = focal_distance
         self.shape = shape
         self.viewport_height = viewport_height
